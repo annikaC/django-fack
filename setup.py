@@ -17,6 +17,7 @@ setup(
 
     packages = find_packages(exclude=['example']),
     zip_safe = False,
+    include_package_data=True,
 
     classifiers = [
         'Development Status :: 3 - Alpha',
